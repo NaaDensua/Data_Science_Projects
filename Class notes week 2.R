@@ -47,3 +47,10 @@ secondway <- df[ , names(df) %in% c("age", "name", "savings")]
 
 thirdway <- subset(df,  ,select = c("age", "savings"))
 print(thirdway)
+
+library("tidyverse")
+
+#import csv data
+#csv_data <- read_csv("data/csvdata.csv") - path
+
+
